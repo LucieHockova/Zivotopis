@@ -1,15 +1,85 @@
 body {
     color:rgb(9, 19, 79);
     background-color: bisque;
+    font-size: 20px;
+    line-height: 1,5;
+    font-weight: mormal;
+    font-style: normal;
+    font-family: cursive;
+    text-align: left;
+    margin: 0;
 }
 
+
+header {
+    text-align: center;
+    background-image: url(foto/IMG_2433a.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 h1,
 h2 {
     color: rgb(104, 41, 41); 
 }
 
+h2 {
+    margin-top: 0;
+}
 
 a {
-    color: rgba(241, 20, 115, 0.801)
+    color: rgba(241, 20, 115, 0.801);
 }
+
+
+.foto_o_mne {
+    with: 200px;
+    height: 200px;
+    border-radius: 0px 40px 0px 40px;
+    border: 2px solid rgb(9, 19, 79);
+    float: left;
+    margin: 0 30px 30px 0;
+    margin-left: 200px;
+}
+
+.kontakty {
+    padding-top: 10px;
+}
+
+
+
+.kontakty a {
+    color: blue;
+}
+
+
+
+th,
+td {
+    border-bottom: 2px solid rgb(9, 19, 79);
+    padding: 10px 0;
+}
+
+.instituce {
+    text-align: right;
+    padding-left: 60px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+
+section,
+header {
+    padding: 50px 15%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(9, 19, 79);
+    color: aliceblue;
+    padding: 20px 0;
+}
+
