@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     text-align: left;
     margin: 0;
-    background-image: linear-gradient(to left, bisque, rgb(231, 131, 9));
+    background-image: linear-gradient(to right, bisque, rgb(231, 131, 9));
 }
 
 
@@ -84,5 +84,30 @@ footer {
     background-color: rgb(9, 19, 79);
     color: aliceblue;
     padding: 20px 0;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: bisque;
+    background-image: linear-gradient(to left, bisque, rgb(231, 131, 9));
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: rgb(9, 19, 79);
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.menu a:hover,
+.menu a:focus
+.menu a:active {
+    background-color: bisque;
 }
 
